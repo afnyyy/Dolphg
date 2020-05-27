@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+        
+        <!-- css saya -->
+        <link rel="stylesheet" href="css/member.css">
+
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Member DOLPHG</title>
+    </head>
+
+    <body>
+        <!-- Navbar -->
+        <div class="navbar-fixed">
+            <nav class="grey">
+            <div class="nav-wrapper">
+                <a href="member.html" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <a href="member.html" data-target="brand-logo"><img src="image/logo.png" alt="logo" height="60"></a>
+                <ul class="right hide-on-med-and-down">
+                    <li class="active"><a href="#profile">Profile</a></li>
+                    <li><a href="#jobs">Pekerjaan</a></li>
+                    <li><a href="index.html">Logout</a></li>
+                </ul>
+            </div>
+            </nav>
+        </div> 
+
+        <!-- SideNav -->
+        <ul class="sidenav" id="mobile-nav">
+            <li class="active"><a href="#profile">Profile</a></li>
+            <li><a href="#jobs">Pekerjaan</a></li>
+            <li><a href="index.html">Logout</a></li>
+        </ul>
+
+        <!-- profile -->
+        <!-- Profile -->
+        <section id="profile" class="profile scrollspy">
+            <div class="container">
+                <div class="row center">
+                    <div class="card-panel">
+                        <h3 class="balck-text">Member</h3>
+                        <img class="responsive-img" src="image/gambar.jpg" alt="logo" width= "300px" height="300px">
+                        <h5 class="black-text">Nama            : Sila Mandani</h5>
+                        <h5 class="black-text">Username        : Sila67Mandani</h5>
+                        <h5 class="black-text">Rank            : Iron</h5>
+                        <h5 class="black-text">Nomor Handphone : +628978756566</h5>
+                        <h5 class="black-text">Alamat          : Jl.RE Martadinata 6, Jakarta Utara</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="jobs" class="jobs scrollspy">
+            <div class="container">
+                <h4 class="center white">Jobs</h4>
+                <div class="card-panel white">
+                    <div class="col s12">
+                        <table class="striped responsive-table">
+                            <thead>
+                              <tr>
+                                  <th>Job</th>
+                                  <th>Min-Rank</th>
+                                  <th>Reward</th>
+                                  <th>Issuer</th>
+                                  <th>Time Limit</th>
+                                  <th>     </th>
+                              </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr>
+                                  <td>Guide 10 People to the Zoo</td>
+                                  <td>Iron</td>
+                                  <td>10 Iron, $20</td>
+                                  <td>Alisabeauty</td>
+                                  <td>1 Day</td>
+                                  <td><button type="submit" class="btn grey" >Done</button></td>
+                                </tr>
+                                <tr>
+                                    <td>Guide 17 People to the Museum</td>
+                                    <td>Iron</td>
+                                    <td>15 Iron, $15</td>
+                                    <td>beautyface</td>
+                                    <td>- 4 Hours Remaining </td>
+                                    <td><button type="submit" class="btn Red" >Cancel</button></td>
+                                  </tr>
+                                <tr>
+                                    <td>Guide 10 People to 2 tourist attractions in Malang</td>
+                                    <td>Iron</td>
+                                    <td>30 Iron, $25</td>
+                                    <td>Vaniartax</td>
+                                    <td>- 12 Hours Remaining</td>
+                                    <td><button type="submit" class="btn Red" >cencel</button></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer -->
+        <footer class="grey draken-2 center-align">
+            <div class="container">
+                <div class="footer-copyright">
+                    <div class="">
+                        <a class="black-text margin-left" href="#!"></a><i class="material-icons ">pin_drop</i>Jl. RE Martadinata, Jakarta Utara</a>
+                        <br>
+                        <a class="black-text center" href="#!">Afny</a>
+                    </div>
+                    <div>
+                        © 2020 Copyright DOLPHG
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!--JavaScript at end of body for optimized loading-->
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <script>
+            const sideNav = document.querySelectorAll('.sidenav');
+            M.Sidenav.init(sideNav);
+            
+            const scroll = document.querySelectorAll('.scrollspy');
+            M.ScrollSpy.init(scroll,{
+                scrollOffset: 70
+            }); 
+            
+      
+            
+          </script>
+    </body>
+</html>
