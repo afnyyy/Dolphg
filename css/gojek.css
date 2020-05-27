@@ -1,0 +1,24 @@
+body {
+    text-decoration: black;
+}
+.parallax-container {
+    height: 500px;
+    width: 100%;
+}
+.container nav{
+    color: black;
+}
+.nav-wrapper{
+    font-display: black;
+}
+
+content, footer {
+    padding: 20px, 20px, 20px, 20px;
+    background-position: center;
+}
+.gojek{
+    font-size: smaller;
+}
+.bawah{
+    font-size: x-small;
+}
