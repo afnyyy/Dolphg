@@ -1,0 +1,57 @@
+.navbar-extended {
+    width: 100%;
+    background-color: grey;
+    overflow: auto;
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navbar-extended a {
+    float: left;
+    color: grey;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 20px;
+    width: 20%;
+    text-align: center;
+}
+
+.navbar-extended a:hover {
+    background-color: grey;
+}
+
+.active {
+    background-color: grey;
+    color: grey;
+}
+
+@media screen and (max-width: 1300px) {
+    .navbar a {
+      float: none;
+      display: block;
+      width: 100%;
+      text-align: left; /* If you want the text to be left-aligned on small screens */
+    }
+  }
+
+
+
+content, footer {
+    padding: 20px 0;
+}
+
+
+.registrasi h1 {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    font-family: Footlight MT Light;
+}
+
+.parallax img {
+    filter: grayscale(5) ;
+    opacity: initial;
+}
+
+h4, h5 {
+    font-family: Footlight MT Light;
+}

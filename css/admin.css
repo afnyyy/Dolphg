@@ -1,0 +1,34 @@
+body {
+    background-image: url(../image/bgAdmin.jpeg) !important;
+}
+.navbar-fixed{
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.profile{
+    font-size: larger;
+    font-family: Footlight MT Light;
+}
+.parallax-container {
+    height: 24%;
+    display: flex;
+}
+
+.card-panel{
+    text-align: center;
+}
+.jobs{
+    font-size: larger;
+    font-family: Footlight MT Light;
+}
+
+.member{
+    font-size: larger;
+    font-family: Footlight MT Light;
+}
+content, footer {
+    padding: 20px 0;
+    background-position: center;
+    font-family: Footlight MT Light;
+}

@@ -1,0 +1,29 @@
+login {
+    margin-bottom: 0px;
+    padding: 20px;
+    background-position: center;
+    font-family: Footlight MT Light;
+    display: flex;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: Footlight MT Light;
+}
+
+.parallax-container {
+    height: 300px;
+    width: 100%;
+    display: flex;
+}
+
+content, footer {
+    padding: 20px 0;
+    background-position: center;
+    font-family: Footlight MT Light;
+    display: flex;
+}
+
+.navbar-fixed{
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
